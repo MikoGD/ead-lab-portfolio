@@ -1,9 +1,15 @@
 import React from 'react';
 import profileImage from '../../../assets/images/profile.jpg';
 
-export default function Hero(): React.ReactElement {
+interface HeroProps {
+  style?: React.CSSProperties;
+}
+
+export default function Hero({
+  style,
+}: HeroProps): React.ReactElement<HeroProps> {
   return (
-    <div className="container h-100 mt-5">
+    <div className="container h-100 pt-5" style={style}>
       <div className="h-75 d-flex flex-column justify-content-center align-items-center">
         <img
           src={profileImage}
