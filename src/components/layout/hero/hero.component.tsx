@@ -1,5 +1,7 @@
+import classnames from 'classnames';
 import React from 'react';
 import profileImage from '../../../assets/images/profile.jpg';
+import styles from './hero.module.scss';
 
 interface HeroProps {
   style?: React.CSSProperties;
@@ -9,7 +11,10 @@ export default function Hero({
   style,
 }: HeroProps): React.ReactElement<HeroProps> {
   return (
-    <div className="container h-100 pt-5" style={style}>
+    <div
+      className={classnames('container h-100 pt-5', styles.hero)}
+      style={style}
+    >
       <div className="h-75 d-flex flex-column justify-content-center align-items-center">
         <img
           src={profileImage}
