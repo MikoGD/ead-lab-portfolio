@@ -3,7 +3,7 @@ import classnames from 'classnames';
 import NavBar from './components/layout/navbar';
 import Hero from './components/layout/hero';
 import About from './components/layout/about';
-import styles from './app.module.scss';
+import './app.module.scss';
 
 function App(): React.ReactElement {
   // To offset hero for fixed navbar
@@ -19,10 +19,7 @@ function App(): React.ReactElement {
 
   return (
     <div
-      className={classnames(
-        'App container-fluid p-0 w-100 vh-100 position-fixed',
-        styles.header
-      )}
+      className={classnames('App container-fluid p-0 w-100 vh-100')}
       id="topPage"
     >
       <header className="container">
@@ -30,6 +27,10 @@ function App(): React.ReactElement {
         <Hero style={{ marginTop: navBarHeight }} />
       </header>
       <main className="container">
+        <About />
+        <About />
+        <About />
+        <About />
         <About />
       </main>
     </div>
