@@ -1,7 +1,7 @@
 import React from 'react';
 import { Article, ArticleBody, ArticleHeader } from '../../article';
 
-export default function About(): React.ReactElement {
+export default function Projects(): React.ReactElement {
   return (
     <section
       className="mt-5 d-flex justify-content-center align-items-center"
