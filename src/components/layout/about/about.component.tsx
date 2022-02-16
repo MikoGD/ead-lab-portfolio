@@ -12,7 +12,6 @@ export default function About(): React.ReactElement {
     <section
       className="mt-5 d-flex justify-content-center align-items-center"
       id="about"
-      style={{ height: '30rem' }}
     >
       <Article
         header={<ArticleHeader>About me</ArticleHeader>}
