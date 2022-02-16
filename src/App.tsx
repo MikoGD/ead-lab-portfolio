@@ -28,10 +28,6 @@ function App(): React.ReactElement {
       </header>
       <main className="container">
         <About />
-        <About />
-        <About />
-        <About />
-        <About />
       </main>
     </div>
   );
