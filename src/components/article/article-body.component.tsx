@@ -1,5 +1,5 @@
 import React from 'react';
-import isString from '../../utilities';
+import { isString } from '../../utilities';
 
 interface ArticleBodyProps {
   children: React.ReactNode;
@@ -10,7 +10,7 @@ export default function ArticleBody({
 }: ArticleBodyProps): React.ReactElement {
   return (
     <div className="bg-white p-4">
-      {isString(children) ? <p className="m-0">{children}</p> : children}
+      {isString(children) ? <p>{children}</p> : children}
     </div>
   );
 }

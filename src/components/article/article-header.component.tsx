@@ -1,6 +1,6 @@
 import React from 'react';
 import classnames from 'classnames';
-import isString from '../../utilities';
+import { isString } from '../../utilities';
 import styles from './article.module.scss';
 
 interface ArticleHeaderProps {
