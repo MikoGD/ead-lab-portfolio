@@ -5,15 +5,18 @@ import styles from './article.module.scss';
 
 interface ArticleHeaderProps {
   children: React.ReactNode;
+  rightHeader?: boolean;
 }
 
 export default function ArticleHeader({
   children,
+  rightHeader = false,
 }: ArticleHeaderProps): React.ReactElement<ArticleHeaderProps> {
   return (
     <div
       className={classnames(
         'd-flex justify-content-center align-items-center p-2 bg-white shadow-sm',
+        rightHeader && 'ms-auto',
         styles.articleHeader
       )}
     >
