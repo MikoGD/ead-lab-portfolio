@@ -3,6 +3,7 @@ import classnames from 'classnames';
 import NavBar from './components/layout/navbar';
 import Hero from './components/layout/hero';
 import About from './components/layout/about';
+import Projects from './components/layout/projects';
 import './app.module.scss';
 
 function App(): React.ReactElement {
@@ -27,6 +28,8 @@ function App(): React.ReactElement {
         <Hero style={{ marginTop: navBarHeight }} />
       </header>
       <main className="container">
+        <About />
+        <Projects />
         <About />
       </main>
     </div>
