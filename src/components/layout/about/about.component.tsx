@@ -3,9 +3,6 @@ import classnames from 'classnames';
 import { Article, ArticleBody, ArticleHeader } from '../../article';
 import styles from './about.module.scss';
 import { flexCenter } from '../../../utilities';
-// import GraphicsDesignImage from '../../../assets/images/graphic_design.jpg';
-// import ProgrammingImage from '../../../assets/images/programming.jpg';
-// import DevOpsImage from '../../../assets/images/devops.jpg';
 
 export default function About(): React.ReactElement {
   return (
