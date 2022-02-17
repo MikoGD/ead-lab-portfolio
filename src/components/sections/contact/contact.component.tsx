@@ -6,7 +6,7 @@ import styles from './contact.module.scss';
 export default function Contact(): React.ReactElement {
   return (
     <section
-      className="mt-5 d-flex justify-content-center align-items-center"
+      className="mt-5 d-flex justify-content-center align-items-center mb-5"
       id="project"
     >
       <Article
