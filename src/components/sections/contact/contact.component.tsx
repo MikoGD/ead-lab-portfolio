@@ -13,7 +13,9 @@ export default function Contact(): React.ReactElement {
         header={<ArticleHeader>Contact Me</ArticleHeader>}
         body={
           <ArticleBody>
+            {/* eslint-disable */}
             <form onSubmit={() => console.log('submitted')}>
+              {/* eslint-enable */}
               <div className="mb-3">
                 <label
                   htmlFor="email"
