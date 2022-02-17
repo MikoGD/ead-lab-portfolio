@@ -2,9 +2,9 @@ import React, { useLayoutEffect, useState } from 'react';
 import classnames from 'classnames';
 import NavBar from './components/layout/navbar';
 import Hero from './components/layout/hero';
-import About from './components/layout/about';
-import Projects from './components/layout/projects';
-import Contact from './components/layout/contact';
+import About from './components/sections/about';
+import Projects from './components/sections/projects';
+import Contact from './components/sections/contact';
 import './app.module.scss';
 
 function App(): React.ReactElement {
@@ -33,6 +33,7 @@ function App(): React.ReactElement {
         <Projects />
         <Contact />
       </main>
+      <footer className="footer text-white">Footer</footer>
     </div>
   );
 }
