@@ -5,6 +5,7 @@ import Hero from './components/layout/hero';
 import About from './components/sections/about';
 import Projects from './components/sections/projects';
 import Contact from './components/sections/contact';
+import Footer from './components/layout/footer';
 import './app.module.scss';
 
 function App(): React.ReactElement {
@@ -33,7 +34,7 @@ function App(): React.ReactElement {
         <Projects />
         <Contact />
       </main>
-      <footer className="footer text-white">Footer</footer>
+      <Footer />
     </div>
   );
 }
