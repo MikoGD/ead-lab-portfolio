@@ -7,7 +7,7 @@ export default function Contact(): React.ReactElement {
   return (
     <section
       className="mt-5 d-flex justify-content-center align-items-center mb-5"
-      id="project"
+      id="contact"
     >
       <Article
         header={<ArticleHeader>Contact Me</ArticleHeader>}
