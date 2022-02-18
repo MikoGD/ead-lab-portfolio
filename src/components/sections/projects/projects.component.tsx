@@ -11,7 +11,7 @@ export default function Projects(): React.ReactElement {
     >
       <Article
         classNames="w-100"
-        header={<ArticleHeader>Projects</ArticleHeader>}
+        header={<ArticleHeader rightHeader>Projects</ArticleHeader>}
         body={
           <ArticleBody
             classNames={classNames('overflow-scroll', styles.projectsBody)}
