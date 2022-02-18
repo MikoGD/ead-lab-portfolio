@@ -1,5 +1,7 @@
+import classNames from 'classnames';
 import React from 'react';
 import { Article, ArticleBody, ArticleHeader } from '../../article';
+import styles from './projects.module.scss';
 
 export default function Projects(): React.ReactElement {
   return (
@@ -8,9 +10,12 @@ export default function Projects(): React.ReactElement {
       id="project"
     >
       <Article
-        header={<ArticleHeader rightHeader>Projects</ArticleHeader>}
+        classNames="w-100"
+        header={<ArticleHeader>Projects</ArticleHeader>}
         body={
-          <ArticleBody>
+          <ArticleBody
+            classNames={classNames('overflow-scroll', styles.projectsBody)}
+          >
             <table className="table table-striped">
               <thead>
                 <tr>
@@ -71,6 +76,10 @@ export default function Projects(): React.ReactElement {
                 </tr>
               </tbody>
             </table>
+            {/* <h1>
+              hi how are you I am a very long header and a header 1 to be in
+              specific
+            </h1> */}
           </ArticleBody>
         }
       />
