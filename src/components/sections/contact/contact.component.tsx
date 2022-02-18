@@ -10,6 +10,7 @@ export default function Contact(): React.ReactElement {
       id="contact"
     >
       <Article
+        classNames="w-100"
         header={<ArticleHeader>Contact Me</ArticleHeader>}
         body={
           <ArticleBody>
