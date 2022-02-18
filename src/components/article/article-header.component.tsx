@@ -15,7 +15,7 @@ export default function ArticleHeader({
   return (
     <div
       className={classnames(
-        'd-flex justify-content-center align-items-center p-2 bg-white shadow-sm',
+        'd-flex justify-content-center p-3 align-items-center bg-white shadow-sm',
         rightHeader && 'ms-auto',
         styles.articleHeader
       )}

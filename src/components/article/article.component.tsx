@@ -1,4 +1,3 @@
-import classnames from 'classnames';
 import React from 'react';
 
 interface ArticleProps {
@@ -13,7 +12,7 @@ export default function Article({
   classNames,
 }: ArticleProps): React.ReactElement<ArticleProps> {
   return (
-    <article className={classnames('w-75', classNames)}>
+    <article className={classNames}>
       {header}
       {body}
     </article>
