@@ -26,7 +26,7 @@ export default function About(): React.ReactElement {
             <div className="mt-5">
               <div
                 className={classnames(
-                  'carousel slide bg-primary w-75 m-auto',
+                  'carousel slide bg-primary m-auto',
                   styles.carousel
                 )}
                 data-bs-ride="carousel"

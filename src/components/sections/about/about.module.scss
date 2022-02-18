@@ -1,5 +1,15 @@
+@import '../../../../node_modules/bootstrap/scss/functions';
+@import '../../../../node_modules/bootstrap/scss/variables';
+@import '../../../../node_modules/bootstrap/scss/mixins';
+
 .carousel {
-  height: 30rem;
+  height: 20rem;
+  width: 100%;
+
+  @include media-breakpoint-up(md) {
+    height: 30rem;
+    width: 75%;
+  }
 }
 
 .graphicsDesign {
