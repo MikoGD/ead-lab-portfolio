@@ -5,6 +5,7 @@ import Hero from './components/layout/hero';
 import About from './components/sections/about';
 import Projects from './components/sections/projects';
 import Contact from './components/sections/contact';
+import Improvements from './components/sections/improvements';
 import Footer from './components/layout/footer';
 import './app.module.scss';
 
@@ -25,13 +26,14 @@ function App(): React.ReactElement {
       className={classnames('App container-fluid p-0 w-100 vh-100')}
       id="topPage"
     >
-      <header className="container">
+      <header className="container w-100">
         <NavBar />
         <Hero style={{ marginTop: navBarHeight }} />
       </header>
       <main className="container">
         <About />
         <Projects />
+        <Improvements />
         <Contact />
       </main>
       <Footer />

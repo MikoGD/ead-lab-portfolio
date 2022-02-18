@@ -31,6 +31,9 @@ export default function NavBar(): React.ReactElement {
             <NavBarItem href="#project" classNames="text-dark">
               Project
             </NavBarItem>
+            <NavBarItem href="#improvements" classNames="text-dark">
+              My Improvements
+            </NavBarItem>
             <NavBarItem href="#contact" classNames="text-dark">
               Contact
             </NavBarItem>
