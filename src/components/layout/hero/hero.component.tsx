@@ -11,15 +11,15 @@ export default function Hero({
   style,
 }: HeroProps): React.ReactElement<HeroProps> {
   return (
-    <div
-      className={classnames('container h-100 pt-5', styles.hero)}
-      style={style}
-    >
+    <div className={classnames('container pt-5', styles.hero)} style={style}>
       <div className="h-75 d-flex flex-column justify-content-center align-items-center">
         <img
           src={profileImage}
           alt="Author in the mountain"
-          className="rounded-circle h-auto w-25 shadow-sm mb-5"
+          className={classnames(
+            'rounded-circle h-auto shadow-sm mb-5',
+            styles.profileImage
+          )}
         />
         <div className="text-center w-100">
           <h1 className="text-light text-uppercase">
