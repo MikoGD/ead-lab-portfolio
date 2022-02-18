@@ -4,6 +4,7 @@ import NavBar from './components/layout/navbar';
 import Hero from './components/layout/hero';
 import About from './components/sections/about';
 import Projects from './components/sections/projects';
+import Video from './components/sections/video';
 import Contact from './components/sections/contact';
 import Improvements from './components/sections/improvements';
 import Footer from './components/layout/footer';
@@ -33,6 +34,7 @@ function App(): React.ReactElement {
       <main className="container">
         <About />
         <Projects />
+        <Video />
         <Improvements />
         <Contact />
       </main>
