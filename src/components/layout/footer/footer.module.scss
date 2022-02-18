@@ -1,0 +1,17 @@
+.dogModal {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dogModalBody {
+  width: 100%;
+}
+
+.dogImage {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
