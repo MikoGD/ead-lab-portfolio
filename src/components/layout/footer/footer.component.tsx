@@ -81,6 +81,16 @@ function Footer(): React.ReactElement {
             <i className="fab fa-github" />
           </a>
         </div>
+        <div className={classnames('text-center', styles.disclaimer)}>
+          <p>
+            <small>
+              Disclaimer Mikael Escolin is not responsible for any injuries or
+              mild annoyances caused by visiting and/or using the website. This
+              includes but is not limited to spontaneous human combustion,
+              becoming a react fanatic and becoming a silver surfer
+            </small>
+          </p>
+        </div>
         <button
           type="button"
           className="btn btn-primary btn-sm"
